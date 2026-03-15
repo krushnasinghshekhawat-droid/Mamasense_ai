@@ -1,57 +1,36 @@
-🤱 MamaSense AI
-Pregnancy Safety Assistant & Emergency Guidance
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-MamaSense AI is an award-winning assistant designed to provide expectant mothers with instant, reliable guidance on pregnancy safety, symptom checking, and emergency alerts. Built with the speed of Google Gemini 3 Flash to ensure answers are delivered when they matter most.
+## Getting Started
 
-🚀 Features
-AI Safety Assistant: Instant answers to "Can I eat/do/take this?" during pregnancy.
+First, run the development server:
 
-Emergency Alerts: Guided logic for identifying when to contact a healthcare provider.
-
-Medical Logic: Powered by Google's Gemini 1.5 Flash for high-context medical reasoning.
-
-Performance: Built on Next.js 15 for lightning-fast server-side rendering.
-
-🛠 Tech Stack
-Framework: Next.js (App Router)
-
-Language: TypeScript
-
-Styling: Tailwind CSS
-
-AI Engine: Google Generative AI (Gemini SDK)
-
-Fonts: Inter & JetBrains Mono
-
-📦 Installation
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/mamasense-ai.git
-cd mamasense-ai
-Install dependencies:
-
-Bash
-npm install
-Set up Environment Variables:
-Create a .env file in the root directory:
-
-Plaintext
-GEMINI_API_KEY=your_google_ai_studio_key_here
-Run the development server:
-
-Bash
+```bash
 npm run dev
-Open http://localhost:3000 to see the app.
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-📂 Project Structure
-/app: Next.js App Router (Layouts and Pages)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-/app/api/chat: The backend bridge to Google Gemini.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-/lib: Configuration files for AI and database utilities.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-/docs: Project documentation and safety guidelines.
+## Learn More
 
-⚠️ Disclaimer
-MamaSense AI is an informational tool and not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
